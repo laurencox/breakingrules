@@ -70,11 +70,6 @@ p {
 }
 
 .back-to-top {
-/*color: #000;
-float: right;
-font-family: sans-serif;
-/*font-size: 1.5em;*/
-/*text-decoration: none;*/*/
 float: right;
 text-decoration: none;
 font-family: serif;
@@ -123,7 +118,24 @@ margin-bottom: 3em;
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .back-to-top {
+    margin-left: 26em;
+  }
+
 }
+
+@media (min-width: 50em) {
+
+  .back-to-top {
+    margin-left: 50em;
+  }
+
+
+
+
+
+}
+
 
 @media (min-width: 60em) {
 
@@ -150,6 +162,10 @@ margin-bottom: 3em;
 
   .rules {
   grid-template-columns: repeat(2, 1fr);
+}
+
+.back-to-top {
+  margin-left: 83em;
 }
 
 }
@@ -193,9 +209,11 @@ margin-bottom: 3em;
 
 <a href="#" class="back-to-top">Back to Top</a>
 
-<p class="copy">
-&copy;Lauren Cox 2017
-</p>
+<footer>
+<small class="copyright">
+&copy; Lauren Cox 2017
+</small>
+</footer>
 
 </body>
 </html>
